@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.MuiTypography-h4 {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+.MuiPaper-rounded {
+  background-color: white !important;
+}
+
+a {
+  text-decoration: none;
+}
+
+.scrollable-element {
+  scrollbar-color: red yellow !important;
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background-color: rgb(233, 233, 243);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: rgb(195, 61, 197);
+  border-radius: 10px;
+}
